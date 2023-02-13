@@ -21,6 +21,7 @@ steps:
   # Install Gulp
 - script: |
     npm install -g gulp-cli
+  displayName: 'Install Gulp'
   
 - task: UseDotNet@2
   displayName: 'Use .NET SDK 6.x'
